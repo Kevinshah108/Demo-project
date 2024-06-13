@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>to list</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>    
+    
+            
+    
+    <div class="header">
+        <p class="tasklisttext">TASK LIST</p> 
+    </div>  
+    
+    <button class="button" id="buttonplus" onclick="openinputbox()" >+</button>
+    <p class="addnewtask" onclick="openinputbox()">ADD NEW TASK!</p>
+    
+    <div>
+        <p class="nonetext" id="hidethistext">
+            No items in To Do List...
+        </p>
+    </div>
+              
+    
+    <div class="flexaddeddivs">
+        <div id="madediv">
+            <div id="innertext"></div>
+            <div id="innertasks"></div>
+            <div id="deletebtn"></div>
+            <div id="addtaskbtn"></div>
+            <div id="markdone"></div>
+        </div>
+    </div>
+
+    <div id="blurebg">
+        <div id="hiddendiv" >
+                    <div class="inputtext">
+                     <input type="text" id="typeheretext" placeholder="type your task here..." required>
+                    </div>
+                    <div class="btnn">
+                <button  class="btn" onclick="myfunc()">
+                    add
+                </button>
+                <button class="btn" onclick="openinputbox()">
+                    close
+                </button>
+            </div>
+                </div>
+            </div>
+       <script src="script.js">
+                 
+       </script>
+
+</body>
+</html>
