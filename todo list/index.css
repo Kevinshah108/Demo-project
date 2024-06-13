@@ -112,13 +112,13 @@ body{
     /* display: flex; */
     border-radius: 20px;
     border: 6px solid #00b3ff;
+    
 }
 #madediv{
    display: flex;
    width: 90%;
    flex-wrap: wrap;
    justify-content: space-evenly;
-   flex-direction: row-reverse;
    margin-left: 46px;
 }
 
@@ -132,8 +132,13 @@ body{
     cursor: pointer;
 }
 
-/* .createddivs1{
+ .createddivs1{
     border-bottom: 2px rgb(255, 255, 255) solid;
     width: 250px;
     height: 50px;
-} */
+} 
+.innertext1{
+   text-align: center;
+   border-bottom: #0d0d0d 1px solid;
+   padding-bottom: 5px;
+}
