@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.homepage-container{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+.homepage-header{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    min-height: 60px;
+    position: fixed;
+    /* border-bottom: 1px solid black; */
+    box-shadow: 1px 1px 7px grey;
+    display: flex;
+    justify-content: end;
+    min-width: 70vw;
+    top: 0;
+}
+.homepage-aside{
+    /* margin-top:80px;  */
+    bottom: 0;
+    height: 91%;
+    width: 18%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    box-shadow: 1px 1px 7px grey;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    min-width: 200px;
+    min-height: 85;
+}
+.my-asides{
+    width: 80%;
+    height: 50px;
+    /* background-color: skyblue; */
+    display: grid;
+    margin-left:10px;
+    gap: 8px;
+}
+.aside-button{
+    width: 115%;
+    height: 45px;
+    text-align: start;
+    margin: 0;
+    border: unset;
+    background-color: unset;
+    color: #3747ff;
+    font-size: 18px;
+    font-weight: lighter;
+    transition: all 0.2s ease;
+}
+.aside-button:hover{
+    background-color: #ddf0ea;
+    cursor: pointer;
+    transform: scale(1.08);
+}
+.aside-button:focus{
+    transform: scale(1.08);
+    background-color: #ddf0ea; 
+}
+#dashboard{
+    margin-top:15px ;
+}
+.profile-header-img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+/* .child-div{
+    width: 600px;
+    height: 400px;
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+} */
+.main-div{
+    width: 82%;
+    height: 15%;
+    /* background-color:lawngreen; */
+    margin: 0;
+    margin-top: 61px;
+    padding: 0;
+    right: 0;
+    position: absolute;
+    /* border-bottom: 1px solid black; */
+    /* box-shadow: 1px 1px 7px grey; */
+    z-index: 0;
+}
+.dashboard-text{
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 25px;
+    color: rgb(82, 82, 82);
+}
+.toggle-home-dashboard{
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #000000;
+
+}
+.home-btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.dashboard-btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* .child-div{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+} */
+.secondary-div{
+    width: 82%;
+    min-height: 75%;
+    /* background-color: crimson; */
+    bottom: 0;
+    position : relative;
+    right: 0;
+    z-index: 1;
+    /* border:2px solid red; */
+}
+.child-div
+{
+    width: 97%;
+    min-height: 480px;
+    max-height: 10000px;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+
